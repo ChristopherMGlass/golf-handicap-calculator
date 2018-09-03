@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true,
+        "target": "es5",
+        "module": "commonjs",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "sourceMap": true
+    }
+}
