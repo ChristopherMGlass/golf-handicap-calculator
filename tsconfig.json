@@ -6,11 +6,22 @@
         "outDir": "dist",
         "allowSyntheticDefaultImports": true,
         "target": "es5",
-        "module": "commonjs",
+        "module": "esnext",
         "lib": [
             "es6",
             "dom"
         ],
+        "allowJs": true,
+        "jsx": "react",
         "sourceMap": true
-    }
+    },
+    "exclude": [
+      "node_modules",
+      "build",
+      "scripts",
+      "acceptance-tests",
+      "webpack",
+      "jest",
+      "src/setupTests.ts"
+    ]
 }
